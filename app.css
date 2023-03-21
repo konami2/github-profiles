@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto+Mono&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Roboto Mono, sans-serif;
+	background-color: #141C30;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.main-div {
+	background-color: #141C30;
+	/* border: 1px solid red; */
+	height: 400px;
+	border-radius: 5px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	position: relative;
+}
+.input {
+	display: flex;
+	height: 55px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: none;
+	margin-bottom: 15px;
+}
+
+input {
+	border: none;
+	background-color: #1F2A48;
+	font-family: inherit;
+	color: white;
+	outline: none;
+	border-bottom-left-radius: 5px;
+	padding-left: 20px;
+	flex: 1;
+}
+input::placeholder {
+	color: white;
+	/* margin-left: 100px; */
+}
+.input button {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+	border-bottom-right-radius: 5px;
+	font-family: inherit;
+	background-color: #017AFD;
+	color: white;
+	width: 115px;
+}
+.lower-div {
+	background-color: #1F2A48;
+	height: 100%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	display: flex;
+}
+#profile-pic {
+	width: 85px;
+	border-radius: 50%;
+	height: 85px;
+	margin-left: 35px;
+	margin-top: 40px;
+	margin-right: 35px;
+	/* object-fit: contain; */
+}
+.left-div {
+	display: flex;
+	flex-direction: column;
+	/* background-color: #017AFD; */
+	margin-bottom: 0;
+	width: 100%;
+}
+h3 {
+	display: inline-block;
+}
+.date {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 24px;
+	align-items: center;
+	margin-bottom: 12px;
+	/* background-color: red; */
+}
+#date {
+	color: rgb(215, 212, 212);
+	margin-right: 15px;
+	font-size: 12px;
+}
+#bio {
+	color: rgb(215, 212, 212);
+	font-size: 12px;
+}
+.information {
+	display: flex;
+	justify-content: space-around;
+	/* border: 1px solid red; */
+	background-color: #141C30;
+	width: 390px;
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+.information div {
+	padding: 12px;
+	display: flex;
+	width: 50px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#hashtag {
+	color: #017AFD;
+	position: absolute;
+	font-size: 12px;
+	top: 131px;
+}
+/* .other-infos {
+	width: 50px;
+	height: 50px;
+}
+.loaction {
+	width: 50px;
+	height: 50px;
+}
+.fa-light {
+	width: 50px;
+	height: 50px;
+} */
