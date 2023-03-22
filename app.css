@@ -17,7 +17,6 @@ body {
 
 .main-div {
 	background-color: #141C30;
-	/* border: 1px solid red; */
 	height: 400px;
 	border-radius: 5px;
 	width: 600px;
@@ -47,7 +46,6 @@ input {
 }
 input::placeholder {
 	color: white;
-	/* margin-left: 100px; */
 }
 .input button {
 	border-top-left-radius: 5px;
