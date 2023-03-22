@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
     <title>Document</title>
     <link rel="stylesheet" href="app.css" />
 </head>
 <body>
     <div class="main-div">
         <div class="input">
-            <input type="text" id="search" placeholder="Search Github username...">
+            <input type="text" id="search" placeholder="Search Github username..." autocomplete="off">
             <button id="search-button">Search</button>
         </div>
         <div class="lower-div">
@@ -38,9 +38,25 @@
                     </div>
                 </div>
                 <div class="other-infos">
-                    <div class="loaction">
-                        <span id="location"></span>
-                        <i class="fa-light fa-location-dot"></i>
+                    <div class="first-row">
+                        <div class="loaction">
+                            <i class="fa fa-location-dot"></i>
+                            <span id="location"></span>
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-square-twitter"></i>
+                            <span id="twitter"></span>
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="link">
+                            <i class="fa fa-paperclip"></i>
+                            <span id="link"></span>
+                        </div>
+                        <div class="github">
+                            <i class="fa-brands fa-github"></i>
+                            <span id="github"><a href="" id="github-link">@github</a></span>
+                        </div>
                     </div>
                 </div>
             </div>
