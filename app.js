@@ -35,7 +35,9 @@ const changeLocation = (location) => {
 		locationIcon.style.color = 'grey';
 	}
 	else {
-		country.innerHTML = location;
+		country.textContent = location;
+		country.style.color = 'white';
+		locationIcon.style.color = 'white';
 	}
 }
 
@@ -47,6 +49,8 @@ const changeTwitter = (twitter)=> {
 	}
 	else {
 		country.innerHTML = twitter;
+		twitterr.style.color = 'white';
+		twitterIcon.style.color = 'white';
 	}
 }
 
